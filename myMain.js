@@ -23,7 +23,7 @@ myFunctionHolder.pointToCircle = function (feature, latlng) {
       return circleMarker;
     }
 
-    //execute
+    
     window.onload = function () {
         var mapObject = L.map('mapDivId').setView([39.9761015,-82.9966866], 11);
     //Replace the basemap link with your own
